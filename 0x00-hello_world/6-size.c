@@ -1,7 +1,8 @@
 #include<stdio.h>
-/*
- * main - Prints all data sizes
- * Return: 0
+/**
+ * main - Prints all data sizes.
+ * compiled with warnings
+ * Return: Returns 0
  */
 int main(void)
 {
