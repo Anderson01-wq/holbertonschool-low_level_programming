@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int c;
+	char c;
 
 
-	for (int c = 97; c < 123; c++)
+	for (char c = 97; c < 123; c++)
 	{
 		putchar(c);
 	}
