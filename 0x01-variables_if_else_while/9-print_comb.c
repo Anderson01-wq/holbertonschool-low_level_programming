@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - Prints all hex numbers.
+ * main - Prints all numbers separated by comma and space.
  * Return: returns 0
  */
 
@@ -18,8 +18,6 @@ int main(void)
 			putchar(32);
 		}
 	}
-	for (i = 97; i > 103; i++)
-		putchar(i);
 
 	putchar('\n');
 
