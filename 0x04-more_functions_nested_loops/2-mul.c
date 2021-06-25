@@ -1,4 +1,4 @@
-include "holberton.h"
+#include "holberton.h"
 
 /**
  * mul - Prints the multplication of two integers
