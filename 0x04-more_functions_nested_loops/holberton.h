@@ -13,6 +13,6 @@ void more_numbers();
 void print_line();
 void print_diagonal();
 void print_square();
-void print_triangle();
+void print_triangle(int);
 
 #endif /* HOLBERTON_H */
