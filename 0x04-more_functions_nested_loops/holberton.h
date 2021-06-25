@@ -5,6 +5,7 @@
 
 int _isupper(int);
 int _isdigit(int);
+int _putchar(int);
 int mul(int, int);
 
 #endif /* HOLBERTON_H */
