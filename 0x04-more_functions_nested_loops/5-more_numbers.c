@@ -3,29 +3,28 @@
 /**
  * more_numbers - Print 0-9 digits 10 times
  *
- * Return: void
+ * Return: There is no return value
  */
 
 void more_numbers(void)
 {
+	int a;
 	int i;
-	int j;
 	int c;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (a = 0; a <= 14; a++)
 		{
-			if (j > 9)
+			if (a > 9)
 			{
 				c = a % 10;
 				_putchar('0' + (a / 10));
 			}
 			else
 				c = a;
-			_putchar('0' + c)
-
+			_putchar('0' + c);
 		}
 		_putchar('\n');
 	}
-}
+} 
