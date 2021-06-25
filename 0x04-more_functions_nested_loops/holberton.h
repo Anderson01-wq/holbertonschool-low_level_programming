@@ -8,5 +8,6 @@ int _isdigit(int);
 int _putchar(int);
 int mul(int, int);
 void print_numbers();
+void print_most_numbers();
 
 #endif /* HOLBERTON_H */
