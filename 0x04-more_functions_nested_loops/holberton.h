@@ -10,5 +10,6 @@ int mul(int, int);
 void print_numbers();
 void print_most_numbers();
 void more_numbers();
+void print_line();
 
 #endif /* HOLBERTON_H */
