@@ -7,5 +7,6 @@ int _isupper(int);
 int _isdigit(int);
 int _putchar(int);
 int mul(int, int);
+void print_numbers();
 
 #endif /* HOLBERTON_H */
